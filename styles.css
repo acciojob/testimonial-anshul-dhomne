@@ -7,23 +7,17 @@
 
 /* Main Container */
 .testimonial-container {
-    /* display: flex; */
-    justify-content: space-around;
     padding: 40px;
     background-color: #f5f5f5;
-    flex-wrap: wrap; /* To handle responsiveness */
 }
 
 /* Individual Testimonial Box */
 .testimonial-box {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 8px;
     width: 60%;
     margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 /* Testimonial Text */
