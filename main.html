@@ -1,60 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonial Section</title>
-    <link rel="stylesheet" href="1.assigment.js">
+    <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    /* Main container styles */
+.testimonials-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
 
+.testimonials-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Individual testimonial box */
+.testimonial {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.testimonial p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Author styles */
+.author {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
+
+</style>
 <body>
-    <style>
-        /* General Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Main Container */
-        .testimonial-container {
-            padding: 40px;
-            background-color: #f5f5f5;
-        }
-
-        /* Individual Testimonial Box */
-        .testimonial-box {
-            background-color: white;
-            padding: 10px;
-            border: 1px solid #ddd;
-
-        }
-
-        /* Author Styling */
-        .author {
-            font-style: italic;
-            text-align: right;
-        }
-    </style>
-    <section class="testimonial-container">
-        <h1>Testimonials</h1>
-
-        <div class="testimonial-box">
-            <p>"This product has changed my life! I can't imagine my daily routine without it. The support team is also
-                incredible!"</p>
-            <p class="author"> Sarah Williams</p>
+    <div class="testimonials-container">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
+            <p class="author">- John Doe</p>
         </div>
-        <div class="testimonial-box">
-            <p> "Excellent quality, great customer service. I'm really impressed with how user-friendly this service
-                is!"</p>
-            <p class="author"> James Black</p>
+        <div class="testimonial">
+            <p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
+            <p class="author">- Jane Smith</p>
         </div>
-        <div class="testimonial-box">
-            <p> "I highly recommend this to anyone looking for an efficient and reliable solution. My experience has been amazing!"</p>
-            <p class="author"> Emily Davis</p>
-        </div>
-    </section>
+    </div>
 </body>
-
 </html>
